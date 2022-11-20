@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import networkMapping from "../constants/networkMapping.json";
 import { useQuery } from "@apollo/client";
 import GET_ACTIVE_ITEMS from "../constants/subgraphQueries";
-import NFTBox from "../components/NFTBOX";
+import NFTBox from "../components/NFTbox";
 
 export default function Home() {
   const { isWeb3Enabled, chainId } = useMoralis();
